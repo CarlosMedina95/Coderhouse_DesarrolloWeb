@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo Zicarelli - Contact</title>
+    <meta name="description" content="Venta de diseños 3D, asesorías, tutoriales y más">
+    <meta name="keywords" content="3D, Diseños, Imagenes, cursos, ventas, HTML, render, personajes">
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/estilos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/estilos.css" /> 
+    <title>Document</title>
+</head>
+<body class="body">
+    <!-- cabecera de la web --> 
+
+    <header class="headerEstilo">
+        <!-- logo -->
+        <div class="container-xl"></div>
+            <div class="row">
+                <div class="col-12 col-md-3 col-xl-2"></div>
+                <div class="col-12 col-md-6 col-xl-8"> 
+                    <img src="Imagenes/Rz_Sculpture.PNG"  width="175" height="175" alt= "logo">
+                    <H2 id="tituloPrincipal">Ricardo Zicarelli</H2>
+                    <H4>Concept Design and Ilustration</H4>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2"></div>
+
+            </div>
+        </div>    
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid menu">
+            <ul class="nav-item">
+                <a class="nav-link" href="../Diseños 3D - Medina/index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Designs
+                </a>
+                </ul>
+                <ul class="nav-item"  >
+                    <a class="nav-link" href="../Diseños 3D - Medina/shop.html"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Shop
+                    </a>
+                </ul>
+                <ul class="nav-item">
+                    <a class="nav-link" href="../Diseños 3D - Medina/info.html"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Info
+                    </a>
+                </ul>    
+                <ul class="nav-item">
+                    <a class="nav-link" href="../Diseños 3D - Medina/tutorials.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Tutorials
+                    </a>
+                </ul>
+                <ul class="nav-item">
+                    <a class="nav-link" href="../Diseños 3D - Medina/contact.html"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contact
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <section id="Formulario de Contacto" class="form">
+        <h2 class="colorTexto"></h2>
+        <form id="app-login" action="process.php" method="POST" enctype="text/plain">
+            <fieldset>
+                <legend>Fromulario de Contacto</legend>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="name" name="user_name">
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" id="mail" name="user_mail">
+                <label for="Estado Civil">Estado Civil:</label>
+                <select id="Estado Civil" name="Estado Civil">
+                    <option value="" selected>Escoger</option>
+                    <option value="Soltero/a">Soltero/a</option>
+                    <option value="Casado/a">Casado/a</option>
+                    <option value="Divorciado/a">Divorciado/a</option>
+                    <option value="Viudo/a">Viudo/a</option>
+                    <option value="Otro">Otro</option>
+                </select>   
+                <label for="check">¿Desea Recibir Ofertas y más?</label>
+                <input name="check" type="checkbox">  
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="user_message"></textarea>
+                <input type="button" value="Limpiar Formulario">
+                <input type="button" value="Enviar Formulario">
+
+            </fieldset>
+        </form>
+
+</section>
+
+    <footer class="footer" >
+        <h2>Este es el footer</h2>
+        <div class="img">
+            <img src="Imagenes/Instagram.svg"  alt="Instagram Logo">
+            <img src="Imagenes/Facebook.svg"  alt="Facebook Logo">
+        </div>
+        <div><h3>Copyright&copy; 2021 - Página creada por Carlos Medina - Todos los derechos reservados</h3></div>
+    </footer>
+<script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>
